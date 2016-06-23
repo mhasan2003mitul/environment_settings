@@ -1,0 +1,5 @@
+# Add user to the docker group to run docker command
+
+gpasswd -a USER_NAME docker
+
+# After adding the user reboot the system to take effect
