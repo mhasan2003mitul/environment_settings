@@ -10,6 +10,10 @@ gpasswd -a USER_NAME docker
 *
 */
 
+# Docker build command
+
+docker build -t "REPOSITORY_NAME"/"DOCKERIMAGE_NAME" .
+
 # shell access of the docker image
 
 docker run -i -t --entrypoint /bin/bash DOCKER_IMAGE_ID
