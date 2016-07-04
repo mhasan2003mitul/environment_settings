@@ -46,6 +46,12 @@ docker rm $(docker ps -al)
 
 # Map docker run with host port to docker post
 
-docker run -p 5000:5000 -name container1 <someimage> <somecommand>
+docker run -p HOST_PORT:CONTAINER_PORT -name container1 <someimage> <somecommand>
 
+# Map docker run with multiple host port to docker post
 
+docker run -p HOST_PORT:CONTAINER_PORT -p HOST_PORT:CONTAINER_PORT -name container1 <someimage> <somecommand>
+
+# Run docker images in background
+
+docker run -d -p HOST_PORT:CONTAINER_PORT -name container1 <someimage> <somecommand>
