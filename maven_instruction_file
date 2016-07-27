@@ -20,3 +20,7 @@ mvn deploy:deploy-file -DgroupId=nl.rws -DartifactId=rws-project-template -Dvers
 # Generate project from local archetype repositories
 
 mvn archetype:generate -DarchetypeGroupId=ARCHETYPE_GROUP_ID -DarchetypeArtifactId=ARCHETYPE_ARTIFACT_ID -DarchetypeVersion=ARCHETYPE_VERSION -DarchetypeRepository=ARCHETYPE_HOST_WITH_REPOSITORY -DgroupId=NEW_PROJECT_GROUP_ID -DartifactId=NEW_PROJECT_ARTIFACT_ID
+
+example:
+
+mvn archetype:generate -DarchetypeGroupId=nl.rws -DarchetypeArtifactId=rws-project-template -DarchetypeVersion=1.0 -DarchetypeRepository=http://dsonexus.hofcom.org/nexus/content/repositories/archetype/ -DgroupId=nl.test -DartifactId=nl-test
