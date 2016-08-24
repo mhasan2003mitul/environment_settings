@@ -23,4 +23,4 @@ mvn archetype:generate -DarchetypeGroupId=ARCHETYPE_GROUP_ID -DarchetypeArtifact
 
 example:
 
-mvn archetype:generate -DarchetypeGroupId=nl.rws -DarchetypeArtifactId=rws-project-template -DarchetypeVersion=1.0 -DarchetypeRepository=http://dsonexus.hofcom.org/nexus/content/repositories/archetype/ -DgroupId=nl.test -DartifactId=nl-test
+mvn archetype:generate -DarchetypeGroupId=nl.rws.dso -DarchetypeArtifactId=rws-project-template -DarchetypeVersion=1.0 -DarchetypeRepository=http://dsonexus.hofcom.org/nexus/content/repositories/archetype/ -DgroupId=nl.test -DartifactId=nl-test
