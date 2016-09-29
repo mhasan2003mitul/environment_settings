@@ -28,3 +28,13 @@ Make a commit afgter conflict resolution and that finish the merge operation.
 git add .
 git commit -m "Merged master fixed conflict."
 
+Get the list of remote branch in local
+
+git branch -r
+
+Fetch a remote branch in local
+
+git fetch REMOTE_REPO BRANCH_NAME
+
+
+
