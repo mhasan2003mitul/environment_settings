@@ -1,0 +1,3 @@
+To access the wso2 osgi console following command is used.
+
+wso2server.bat -DosgiConsole
