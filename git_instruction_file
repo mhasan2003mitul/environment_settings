@@ -1,40 +1,41 @@
 
-Git command to get the list of conflict file
+# Git command to get the list of conflict file
 
 git diff --name-only --diff-filter=U
 
-Git command to change branch
+# Git command to change branch
 
 git checkout -b BRANCH_NAME
 
-Git command to track remote branch
+# Git command to track remote branch
 
 git branch --track localBranch remoteName/remoteBranch
 
-git remote list
+# git remote list
 
 git remote -v
 
-git branch delete
+#git branch delete
 
 git branch -d BRANCH_NAME
 
-git add remote
+# git add remote
 
 git remote add REMOTE_NAME REPOSITORIES_LINK
 
-Make a commit afgter conflict resolution and that finish the merge operation.
+# Make a commit afgter conflict resolution and that finish the merge operation.
 
 git add .
 git commit -m "Merged master fixed conflict."
 
-Get the list of remote branch in local
+# Get the list of remote branch in local
 
 git branch -r
 
-Fetch a remote branch in local
+# Fetch a remote branch in local
 
 git fetch REMOTE_REPO BRANCH_NAME
 
+# list of local branch with commit number & message
 
-
+git branch -v
