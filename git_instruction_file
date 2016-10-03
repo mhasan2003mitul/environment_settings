@@ -43,3 +43,9 @@ git branch -v
 # delete a remote branch
 
 git push REMOTE_ADDRESS --delete BRANCH_NAME
+
+# Revoke a stash changes after stash apply
+
+git reset --hard
+
+
