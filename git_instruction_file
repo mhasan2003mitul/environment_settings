@@ -39,3 +39,7 @@ git fetch REMOTE_REPO BRANCH_NAME
 # list of local branch with commit number & message
 
 git branch -v
+
+# delete a remote branch
+
+git push REMOTE_ADDRESS --delete BRANCH_NAME
