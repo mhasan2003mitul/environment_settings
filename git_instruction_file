@@ -48,4 +48,15 @@ git push REMOTE_ADDRESS --delete BRANCH_NAME
 
 git reset --hard
 
+# Remove untracked file
+
+git clean -f -d
+
+# Above but removes ignored files like config.
+
+git clean -f -x -d
+
+# Cleans untracked and ignored files through the entire repo (without :/, the operation affects only the current directory)
+
+git clean -fxd :/
 
