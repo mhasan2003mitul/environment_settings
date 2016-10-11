@@ -60,3 +60,15 @@ git clean -f -x -d
 
 git clean -fxd :/
 
+# Delete a commit just before the HEAD from git
+
+git reset --hard HEAD~1
+
+# Delete a commit from git
+
+git reset --hard <sha1-commit-id>
+
+# If deleted commit is already pushed, need the following command to delete it from the remote
+
+git push origin(REMOTE) HEAD --force
+
