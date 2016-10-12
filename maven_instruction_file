@@ -28,3 +28,9 @@ mvn archetype:generate -DarchetypeGroupId=ARCHETYPE_GROUP_ID -DarchetypeArtifact
 example:
 
 mvn archetype:generate -DarchetypeGroupId=nl.rws.dso -DarchetypeArtifactId=rws-project-template -DarchetypeVersion=1.0 -DarchetypeRepository=http://dsonexus.hofcom.org/nexus/content/repositories/archetype/ -DgroupId=nl.test -DartifactId=nl-test
+
+# Passing argument for the plugins during maven release:perform
+
+mvn release:reform -Darguments="-DargumentName=value"
+
+
