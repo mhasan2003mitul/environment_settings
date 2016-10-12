@@ -72,3 +72,12 @@ git reset --hard <sha1-commit-id>
 
 git push origin(REMOTE) HEAD --force
 
+# Rename a remote branch
+
+  git branch new-branch-name origin/old-branch-name
+  git push origin --set-upstream new-branch-name
+  git push origin :old-branch-name
+  
+# Rename a local branch
+
+git branch -m <oldname> <newname>
