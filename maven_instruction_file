@@ -31,6 +31,6 @@ mvn archetype:generate -DarchetypeGroupId=nl.rws.dso -DarchetypeArtifactId=rws-p
 
 # Passing argument for the plugins during maven release:perform
 
-mvn release:reform -Darguments="-DargumentName=value"
+mvn release:perform -Darguments="-DargumentName=value"
 
 
